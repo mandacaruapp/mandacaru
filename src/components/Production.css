@@ -1,0 +1,7 @@
+.production{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+}

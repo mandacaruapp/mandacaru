@@ -1,0 +1,36 @@
+.cards{
+    
+    display: inline-flex;
+    width: 220px;
+    height: 312px;
+    box-shadow: 0px 0px 3px  #dfdee2;
+    padding: 23px 22px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+    
+    
+}
+
+.cards div{
+    
+    height: 67px;
+    width: 67px;
+    border-radius: 100%;
+    background-color: #fbf5d5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards i{
+    color: #ccad2a;
+    
+
+}
+
+.cards h3{
+    color: #81998b;
+    margin: 20px 0px;
+}

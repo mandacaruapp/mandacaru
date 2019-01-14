@@ -1,0 +1,15 @@
+ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 0px;
+    margin-right: 25px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,33 @@
+header{
+    /*background-image: radial-gradient(to top,blue, white);*/
+    background-color: #7380be;
+    color: white;
+    
+    margin-right: 130px;
+    border-bottom-right-radius: 3000px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 100px;
+}
+
+.left{
+    height: 100%;
+    width: 60%;
+  
+}
+
+.left h3{
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+
+.left h1{
+    padding-bottom: 45px;
+}
+
+img{
+    height: 320px;
+    
+}
