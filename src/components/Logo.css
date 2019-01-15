@@ -1,5 +1,14 @@
 h2 a{
-
+    width: 153px;
+    height: 36px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
     font-size: 40px;
     text-decoration: none;
     color: white;

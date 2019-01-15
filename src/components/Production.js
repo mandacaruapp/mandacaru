@@ -9,7 +9,7 @@ export class Production extends React.Component{
            <section className="production">
               <Presentation/>
               <Columncards position="rightcard"/>
-              <Columncards/>     
+              <Columncards position="leftcard"/>     
            </section>
         )
     }

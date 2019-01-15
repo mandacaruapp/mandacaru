@@ -1,8 +1,18 @@
 .button{
-    background-color: white;
-    height: 30px;
-    width: 130px;
-    border: 0px;
-    border-radius: 30px;
-    
+    width: 154px;
+    height: 38px;
+    border-radius: 17px;
+    background-color: #ffffff;   
+    border-width: 0px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #779a8b; 
 }
+
+
+

@@ -1,7 +1,21 @@
 .production{
     display: flex;
     justify-content: space-between;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 20px;
+    width: 1440px;
+    padding: 0px 250px;
+}
+
+.production div{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+
+}
+
+.rightcard{
+    margin-top: -64px;
+}
+
+.leftcard{
+    margin-top: 17px;
 }

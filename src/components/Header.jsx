@@ -3,6 +3,7 @@ import "./Header.css";
 import { Button } from "./Button";
 import { Navigation } from "./Navigation.js";
 import figure from "../img/MandacaruLanding.png"
+import { Ovalheader } from "./Ovalheader.js";
 
 export class Header extends React.Component{
     render(){

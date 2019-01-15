@@ -1,23 +1,20 @@
 .title{
     display: inline-flex;
-    position: relative;
-    height: auto;
-    padding: 2px;
-    margin: 10px 50px;
     justify-content: center;
     align-items: center;
-    
 }
 
 .title h1{
    position: relative; 
-   font-size: 70px;
+   font-size: 80px;
    color: #e9edee;
+   font-family: 'Open Sans', sans-serif;
    
 }
 
 .title h2{
    position: absolute; 
    color: #81988a;
-   font-size: 30px;
+   font-size: 34px;
+   font-family: 'Open Sans', sans-serif;
 }

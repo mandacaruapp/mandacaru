@@ -1,12 +1,6 @@
 .boxclients{
     display: flex;
     justify-content: space-between;
-}
-
-.boxclients img{
-    border-width: 3px;
-    border-style: solid;
-    border-color: #81988a;
-    width: 10rem;
-    height: 10rem;
+    padding-bottom: 107px;
+    padding-top: 28px;
 }

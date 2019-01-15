@@ -7,10 +7,8 @@ export class Clients extends React.Component{
     render(){
         return (
            <div className="clients">
-                
                 <Titles 
-                title="Building trust" textbox="CLIENTS"
-                />
+                    title="Building trust" textbox="CLIENTS"/>
                 <Boxclients/>
            </div>
         )

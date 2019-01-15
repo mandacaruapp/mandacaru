@@ -24,13 +24,32 @@
     justify-content: center;
 }
 
-.cards i{
+.cards svg{
     color: #ccad2a;
-    
+    height: 20px;
+    width: 33px;
+       
 
 }
 
 .cards h3{
     color: #81998b;
-    margin: 20px 0px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cards p{
+    width: 176px;
+    height: 140px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4f4f4f;
 }
