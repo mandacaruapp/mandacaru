@@ -1,6 +1,6 @@
 .socialicons{
-    height: 60px;
-    width: 60px;
+    height: 36px;
+    width: 36px;
     border-radius: 100%;
     background-color:white;
     display: inline-flex;
@@ -9,6 +9,16 @@
     margin: 5px;
 }
 
-.socialicons i{
+.socialicons a{
     color: #7380be;
+    text-decoration: none;
+    height: 15px;
+    width: 19px;
+}
+
+.socialicons a svg{
+    display: inline-block;
+    color: #7380be;
+    height: 15px;
+    width: 19px;
 }

@@ -4,7 +4,7 @@ import "./Clientsimg.css";
 export class Clientsimg extends React.Component{
     render(){
         return (
-           <img src={this.props.src} alt={this.props.alt}/>
+           <img className="clientsimg" src={this.props.src} alt={this.props.alt}/>
         )
     }
 };

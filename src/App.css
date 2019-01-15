@@ -2,33 +2,35 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
+  
 }
 
 .App {
   background-color: #fcfbff;
   display: grid;
+  justify-items: center;
+  width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 400px 885px 350px 140px;
+  grid-template-rows: 529px 684px 383px 103px;
   grid-template-areas: 
     "header"
     "production"
     "clients"
     "footer";
-}
+ }
 
 header.header{
-  grid-area: header;
-}
-
-section.production{
-  grid-area: production;
-}
-
-div.clients{
-  grid-area: clients;
-}
-
-footer.footer{
-  grid-area: footer;
-}
+    grid-area: header;
+  }
+  
+  section.production{
+    grid-area: production;
+  }
+  
+  div.clients{
+    grid-area: clients;
+  }
+  
+  footer.footer{
+    grid-area: footer;
+  }
