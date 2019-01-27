@@ -1,6 +1,6 @@
 import React from "react";
-import { Links } from "./Links.js";
-import { Logo } from "./Logo.js";
+import { Links } from "../Links/Links.jsx";
+import { Logo } from "../Logo/Logo.jsx";
 import "./Navigation.css"
 
 export class Navigation extends React.Component{

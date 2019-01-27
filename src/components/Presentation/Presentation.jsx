@@ -1,6 +1,6 @@
 import React from "react";
 import "./Presentation.css";
-import { Titles } from "./Titles.js";
+import { Titles } from "../Titles/Titles.jsx";
 
 export class Presentation extends React.Component{
     render(){

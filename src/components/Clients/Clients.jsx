@@ -1,7 +1,7 @@
 import React from "react";
 import "./Clients.css";
-import { Boxclients } from "./Boxclients.js";
-import { Titles } from "./Titles.js"
+import { Boxclients } from "../Boxclients/Boxclients.jsx";
+import { Titles } from "../Titles/Titles.jsx"
 
 export class Clients extends React.Component{
     render(){
