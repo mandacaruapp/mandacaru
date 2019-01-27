@@ -1,9 +1,8 @@
 import React from "react";
 import "./Header.css";
-import { Button } from "./Button";
-import { Navigation } from "./Navigation.js";
-import figure from "../img/MandacaruLanding.png"
-import { Ovalheader } from "./Ovalheader.js";
+import { Button } from "../Button/Button";
+import { Navigation } from "../Navigation/Navigation.jsx";
+import figure from "../../assets/img/MandacaruLanding.png";
 
 export class Header extends React.Component{
     render(){

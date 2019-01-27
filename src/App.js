@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Header } from "./components/Header.jsx";
-import { Production } from "./components/Production.js";
-import { Clients } from "./components/Clients.js";
-import { Footer } from "./components/Footer.js";
+import 'font-awesome/css/font-awesome.min.css'
+import { Header } from "./components/Header/Header.jsx";
+import { Production } from "./components/Production/Production.jsx";
+import { Clients } from "./components/Clients/Clients.jsx";
+import { Footer } from "./components/Footer/Footer.jsx";
 
 class App extends Component {
   render() {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Boxclients.css";
-import { Clientsimg } from "./Clientsimg.js";
+import { Clientsimg } from "../Clientsimg/Clientsimg.jsx";
 
 export class Boxclients extends React.Component{
     render(){
