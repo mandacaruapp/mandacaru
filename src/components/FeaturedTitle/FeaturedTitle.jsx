@@ -1,7 +1,7 @@
 import React from "react";
-import "./Titles.css";
+import "./FeaturedTitle.css";
 
-export class Titles extends React.Component{
+export class FeaturedTitle extends React.Component{
     render(){
         return (
             <div className="title">

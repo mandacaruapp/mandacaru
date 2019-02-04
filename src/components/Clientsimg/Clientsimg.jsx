@@ -1,7 +1,7 @@
 import React from "react";
-import "./Clientsimg.css";
+import "./ClientsImg.css";
 
-export class Clientsimg extends React.Component{
+export class ClientsImg extends React.Component{
     render(){
         return (
            <img className="clientsimg" src={this.props.src} alt={this.props.alt}/>

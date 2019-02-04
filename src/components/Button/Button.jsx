@@ -4,7 +4,9 @@ import "./Button.css";
 export class Button extends React.Component{
     render(){
         return (
-            <button className="button">{this.props.name}</button>
+            <a className="learnmore" href={this.props.src}>
+                <p>{this.props.name}</p>
+            </a>
         )
     }
 };

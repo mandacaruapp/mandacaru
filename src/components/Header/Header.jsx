@@ -8,13 +8,17 @@ export class Header extends React.Component{
     render(){
         return(
             <header className="header">
-                <div className="left">
-                    <Navigation/>
-                    <h3>Leave the tech to us, focus on your mission</h3>
-                    <h1>We develop clear-cut web, mobile and IoT experiences</h1>
-                    <Button name="Learn More"/>
+                <div className="headercontent">
+                    <div className="left">
+                        <Navigation/>
+                        <h3>Leave the tech to us, focus on your mission</h3>
+                        <h1>We develop clear-cut web, mobile and IoT experiences</h1>
+                        <Button name="Learn More" src="#"/>
+                    </div>
+                    <img className="mandacaruimg" src={figure} alt="mandacaru"/>
                 </div>
-                <img src={figure} alt="mandacaru"/>
+                <div className="cicle"></div>
+                <div className="module"></div>
             </header>
         )
     }
