@@ -1,7 +1,7 @@
 import React from "react";
-import "./Links.css"
+import "./NavBar.css"
 
-export class Links extends React.Component{
+export class NavBar extends React.Component{
     render(){
         
         return (

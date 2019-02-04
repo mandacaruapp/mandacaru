@@ -1,4 +1,6 @@
-.button{
+.learnmore{
+    display: inline-flex;
+    text-decoration: none;
     width: 154px;
     height: 38px;
     border-radius: 17px;
@@ -12,6 +14,9 @@
     line-height: normal;
     letter-spacing: normal;
     color: #779a8b; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 

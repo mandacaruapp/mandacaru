@@ -3,6 +3,7 @@
     justify-content: space-between;
     width: 1440px;
     padding: 0px 250px;
+    z-index: 100;
 }
 
 .production div{

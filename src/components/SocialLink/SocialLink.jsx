@@ -1,7 +1,7 @@
 import React from "react";
-import "./Socialicons.css";
+import "./SocialLink.css";
 
-export class Socialicons extends React.Component{
+export class SocialLink extends React.Component{
     render(){
         return (
            <div className="socialicons">
