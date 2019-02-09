@@ -24,10 +24,9 @@
     justify-content: center;
 }
 
-.cards i{
+.cards div i{
     color: #ccad2a;
-    height: 33px;
-    width: 33px;
+    font-size: 27px;
        
 
 }
