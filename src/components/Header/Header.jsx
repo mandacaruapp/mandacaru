@@ -17,7 +17,6 @@ export class Header extends React.Component{
                     </div>
                     <img className="mandacaruimg" src={figure} alt="mandacaru"/>
                 </div>
-                <div className="cicle"></div>
                 <div className="module"></div>
             </header>
         )

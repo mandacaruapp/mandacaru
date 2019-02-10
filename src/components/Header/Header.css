@@ -5,25 +5,16 @@
     height: 529px;
 }
 
-.header .cicle{
-    background-color: #7380be;
-    height: 1637px;
-    width: 1637px;
-    position: absolute;
-    border-radius: 50%;
-    z-index:0;
-    top: -1108px;
-    right: 3%;
-} 
-
 .header .module{
     background-color: #7380be;
-    height: 529px;
+    height: 1637px;
     width: 100%;
     position: absolute;
     z-index:0;
-    right: 61%;
-   
+    top: -1108px;
+    right: 3%;
+    left: auto;
+    border-bottom-right-radius: 1000px;
 }
 
 .headercontent{
@@ -67,15 +58,22 @@
     height: 416px;
     width: 272px;
     margin-bottom: 8px;
-       
 }
 
-@media only screen and (min-width: 768px) {
-    
-    .header .cicle{
+@media only screen and (min-width: 1440px) {
+    .header .module{
         right: 1%;
     }
+}
+
+@media only screen and (min-width: 1920px) {
     .header .module{
-        right: 45%;
+        right: 15%;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .header .module{
+        right: 20%;
     }
 }
