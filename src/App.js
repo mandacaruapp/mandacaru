@@ -3,8 +3,10 @@ import './App.css';
 import 'font-awesome/css/font-awesome.min.css'
 import { Header } from "./components/Header/Header.jsx";
 import { Production } from "./components/Production/Production.jsx";
-import { Clients } from "./components/Clients/Clients.jsx";
+import { BoxClients } from "./components/BoxClients/BoxClients.jsx";
 import { Footer } from "./components/Footer/Footer.jsx";
+import { TitleClients } from "./components/TitleClients/TitleClients.jsx";
+
 
 class App extends Component {
   render() {
@@ -12,7 +14,8 @@ class App extends Component {
       <div className="App">
         <Header/>
         <Production/>
-        <Clients/>
+        <TitleClients/>
+        <BoxClients/>
         <Footer/>
       </div>
     );

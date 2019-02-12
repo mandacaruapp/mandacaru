@@ -9,8 +9,6 @@
     align-items: center;
     background-color: white;
     margin-bottom: 20px;
-    
-    
 }
 
 .cards div{
@@ -27,11 +25,9 @@
 .cards div i{
     color: #ccad2a;
     font-size: 27px;
-       
-
 }
 
-.cards h3{
+.titlecard{
     color: #81998b;
     margin-top: 20px;
     margin-bottom: 12px;
@@ -52,3 +48,5 @@
     letter-spacing: normal;
     color: #4f4f4f;
 }
+
+

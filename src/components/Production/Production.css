@@ -1,23 +1,43 @@
 .production{
     display: flex;
-    justify-content: space-between;
-    width: 1440px;
-    padding: 0px 250px;
+    justify-content: center;
     z-index: 100;
+    flex-wrap: wrap;
 }
 
 .production div{
     display: flex;
     flex-direction: column;
     width: 220px;
-
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 100;
 }
 
 .rightcard{
     margin-top: -64px;
-  
 }
 
 .leftcard{
     margin-top: 17px;
+}
+
+@media (max-width: 980px) {
+    .rightcard{
+        margin-top: 10px;
+    }
+    
+    .leftcard{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .rightcard{
+        margin-top: 10px;
+    }
+    
+    .leftcard{
+        margin-top: 10px;
+    }
 }

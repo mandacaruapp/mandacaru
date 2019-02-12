@@ -7,30 +7,5 @@
 
 .App {
   background-color: #fcfbff;
-  display: grid;
-  justify-items: center;
   width: 100%;
-  grid-template-columns: 100%;
-  grid-template-rows: 529px 684px 383px 103px;
-  grid-template-areas: 
-    "header"
-    "production"
-    "clients"
-    "footer";
- }
-
-header.header{
-    grid-area: header;
-  }
-  
-  section.production{
-    grid-area: production;
-  }
-  
-  div.clients{
-    grid-area: clients;
-  }
-  
-  footer.footer{
-    grid-area: footer;
-  }
+}

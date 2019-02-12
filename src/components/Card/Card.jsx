@@ -8,7 +8,7 @@ export class Card extends React.Component{
                 <div>
                     <i className={`fas fa-${this.props.icon}`}></i>
                 </div>
-                <h3>{this.props.title}</h3>
+                <h3 className="titlecard">{this.props.title}</h3>
                 <p>{this.props.text}</p>
             </article>
         )
