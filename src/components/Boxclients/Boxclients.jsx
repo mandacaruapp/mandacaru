@@ -1,8 +1,8 @@
 import React from "react";
-import "./Boxclients.css";
+import "./BoxClients.css";
 import { ClientsImg } from "../ClientsImg/ClientsImg.jsx";
 
-export class Boxclients extends React.Component{
+export class BoxClients extends React.Component{
     render(){
         return (
            <div className="boxclients">

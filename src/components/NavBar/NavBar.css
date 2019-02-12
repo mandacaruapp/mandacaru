@@ -1,7 +1,7 @@
 ul li a{
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -19,4 +19,12 @@ ul li{
 
 ul{
     list-style-type: none;
+}
+
+
+@media (max-width: 768px) { 
+   ul {
+       display: inline-flex;
+       margin-top: 32px;
+   }
 }

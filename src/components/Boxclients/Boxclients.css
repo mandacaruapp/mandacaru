@@ -1,6 +1,10 @@
 .boxclients{
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 107px;
-    padding-top: 28px;
+    justify-content: center;
+    padding-bottom: 7px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) { 
+   
 }
