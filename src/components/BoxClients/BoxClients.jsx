@@ -1,18 +1,15 @@
 import React from "react";
 import "./BoxClients.css";
 import { ClientsImg } from "../ClientsImg/ClientsImg.jsx";
-
-export class BoxClients extends React.Component{
-    render(){
-        return (
-           <div className="boxclients">
-                <ClientsImg src="https://placeimg.com/140/140/any" alt="xxx"/>
-                <ClientsImg src="https://placeimg.com/140/140/any" alt="xxx"/>
-                <ClientsImg src="https://placeimg.com/140/140/any" alt="xxx"/>
-                <ClientsImg src="https://placeimg.com/140/140/any" alt="xxx"/>
-                <ClientsImg src="https://placeimg.com/140/140/any" alt="xxx"/>
-                <ClientsImg src="https://placeimg.com/140/140/any" alt="xxx"/>
-           </div>
-        )
-    }
-};
+import imgDoskofoto from "../../assets/img/clients/doskofoto.png";
+import imgVikingflom from "../../assets/img/clients/vikingflom.png";
+export class BoxClients extends React.Component {
+  render() {
+    return (
+      <div className="boxclients">
+        <ClientsImg src={imgDoskofoto} alt="Doskofoto" />
+        <ClientsImg src={imgVikingflom} alt="Viking Flom Construction" />
+      </div>
+    );
+  }
+}
